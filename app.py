@@ -26,6 +26,7 @@ figViolencia.update_layout({"plot_bgcolor": "rgba(0, 0, 0, 0)","paper_bgcolor": 
                             font_color="white",showlegend=False)
 
 app = dash.Dash(external_stylesheets=[dbc.themes.SUPERHERO])
+server= app.server
 
 ############        PRE-DISEÑO  ############  
 
